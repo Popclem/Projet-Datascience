@@ -57,7 +57,7 @@ Nous avons donc construit une classe permettant de dégrader une image de maniè
 Pour le model, nous avons choisi d'implémenter **Pix2pix** un model qui est composé d'un **générateur** d'image et d'un **discriminateur**. Ce dernier nous sert à savoir si l'image générée est proche ou non de l'image **clean** et si ce n'est pas le cas le model refait des itérations jusqu'à s'approcher au maximum de l'image **clean**.
 
 ### Entrainement
-Pour cette exemple, nous avons entrainé le model sur 100 epochs avec un batch_size de 32.<br />
+Pour cet exemple, nous avons entrainé le model sur 100 epochs avec un batch_size de 32.<br />
 A la 63e epoch nous constatons que nous avons une amélioration visuelle de notre image.
 <p align="center">
   <img src="https://github.com/kayou11/Projet-Datascience/blob/master/img-readme/before.PNG" width="200" title="hover text">
